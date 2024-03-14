@@ -20,4 +20,7 @@ void input() {              //procedure input
             cout << "\nArray yang ada masukan maksimal 20 Elemen. \n";  //menampilkan pesan
         }
     }
-   
+    cout << endl;                                       //membuat jarak perbaris program
+    cout << "=====================" << endl;            //membuat tampilan susunan data element 
+    cout << "Masukan Element Array" << endl;
+    cout << "=====================" << endl;
