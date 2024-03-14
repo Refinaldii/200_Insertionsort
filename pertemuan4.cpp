@@ -69,4 +69,11 @@ void display() {                //procedure display
     cout << endl;                                           //output baris kosong
 
 }
+int main()
+{
+
+    input();                        //Memanggil input
+    insertionsort();                //Memanggil insertionsort
+    display();                      //Memanggil display
+}
 
