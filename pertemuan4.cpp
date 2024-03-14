@@ -24,3 +24,14 @@ void input() {              //procedure input
     cout << "=====================" << endl;            //membuat tampilan susunan data element 
     cout << "Masukan Element Array" << endl;
     cout << "=====================" << endl;
+
+    for (int i = 0; i < n; i++)                         //Mengunakan perulangan for untuk menyimpan data pada array
+    {
+        cout << "Data Ke-" << (i + 1) << ": ";          //Memasukan atau mennginput nilai data n
+        cin >> arr[i];                                  //menyimpan nilai data n kedalam array arr
+    }
+}
+
+
+
+
